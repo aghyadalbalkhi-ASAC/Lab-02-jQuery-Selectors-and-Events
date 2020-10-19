@@ -1,0 +1,12 @@
+section:hover{
+    transition: 2s;
+    box-shadow: 0 4px 8px 0 #F50057    , 0 2px 10px 0 #F50057    ;
+}
+
+main > :first-child {
+    display: none;
+}
+select{
+    padding: 10px;
+  margin-left: 40%;
+}
