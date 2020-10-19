@@ -1,0 +1,16 @@
+main::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+section:hover{
+    transition: 2s;
+    box-shadow: 0 4px 8px 0 #F50057    , 0 2px 10px 0 #F50057    ;
+}
+img{
+display: inline-block;
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 2px 2px 0 #00B0FF, 0 2px 2px 0 #00B0FF ;
+}
