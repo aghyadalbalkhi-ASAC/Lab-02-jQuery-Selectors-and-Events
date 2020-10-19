@@ -2,38 +2,3 @@
 @import 'layout.css';
 @import 'modules.css';
 
-main{
-
-    margin-left:5%;
-    margin-right:5%;
-
-}
-
-main::after{
-    content: "";
-    display: table;
-    clear: both;
-  
-}
-
-section {
-    margin: 20px;
-    float: left;
-    text-align: center;
-
-}
-
-img{
-margin-left: 15%;
-
-display: inline-block;
-    width: 200px;
-    height: 200px;
-}
-
-
-main > :first-child {
-
-    display: none;
-}
-

@@ -1,0 +1,22 @@
+main{
+    margin-left:5%;
+    margin-right:5%;
+}
+
+
+    h2{
+        font-family: 'Merienda', cursive;
+        margin: 10px;
+    }
+    p{
+        width: 100%;
+    }
+
+
+    h1{
+        font-family: 'Merienda', cursive;
+        margin-left: 35%;
+    }
+    header{
+        margin-bottom: 30px;
+    }
