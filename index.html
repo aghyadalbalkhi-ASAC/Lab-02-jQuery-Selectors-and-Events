@@ -2,36 +2,70 @@
 
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>The Gallery of Horns</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styels.css">
-  </head>
-  <body>
-    <header>
-      <h1>The Gallery of Horns</h1>
-      <select>
-        <option value="default">Filter by Keyword</option>
-      </select>
-    </header>
+
+<head>
+  <title>The Gallery of Horns</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styels.css">
+</head>
+
+<body>
+  <header>
+    <h1>The Gallery of Horns</h1>
+    <select>
+      <option value="default">Filter by Keyword</option>
+    </select>
+    
+    <div id="sortButtons">
+      <button id="sortByTitle">Sort By Title </button>
+      <button id="sortByHorns"> Sort By Horns </button>
+    </div>
+
+<br><br><br>
 
 
-    <main>
-      <section class="photo-template">
-        <h2></h2>
-        <img src="" alt="">
-        <p></p>
+
+    <div id="buttons">
+      <button id="Firstpage">First page </button>
+      <button id="SecondPage"> Second Page </button>
+    </div>
+
+  </header>
+
+
+  <main>
+    <template class="photo-template">
+
+      <section>
+        <h2>{{title}}</h2>
+        <img src="{{image_url}}" alt="">
+        <p>{{description}}</p>
+        <p>{{horns}}</p>
+        
       </section>
 
+    </template>
 
-    </main>
+
+  </main>
 
 
-    <footer>
-      &copy; 2018 Code Fellows
-    </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="js/app.js"></script>
-  </body>
+  <footer>
+    &copy; 2018 Code Fellows
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://unpkg.com/mustache@latest"></script>
+  <script src="js/app.js"></script>
+
+
+  <ul class="foo">
+    <li>Model</li>
+    <li>View</li>
+    <li class="is-active">Controller</li>
+  </ul>
+
+
+</body>
+
 </html>
