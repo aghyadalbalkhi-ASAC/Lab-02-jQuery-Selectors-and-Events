@@ -1,0 +1,22 @@
+main::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+section {
+    width:19%;
+    margin: 20px;
+    float: left;
+    text-align: center;
+   height: 400px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   border-radius: 2px;
+}
+
+img{
+    display: inline-block;
+        width: 200px;
+        height: 200px;
+        box-shadow: 0 2px 2px 0 #00B0FF, 0 2px 2px 0 #00B0FF ;
+    }
