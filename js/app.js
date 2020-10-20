@@ -133,7 +133,7 @@ $("#SecondPage").click(function () {
 
 $("#sortByHorns").click(function () {
 
-  dataRecived = 'data/page-1.json';
+  
   sortOption();
   reloadThePage();
 
@@ -147,8 +147,12 @@ $("#sortByHorns").click(function () {
 
 $("#sortByTitle").click(function () {
 
-  dataRecived = 'data/page-2.json';
+  sortTitle();
   reloadThePage();
+
+  allHorns.forEach(function (value) {
+    value.show();
+  });
 
 });
 
@@ -181,3 +185,18 @@ function clearList() {
 
 
 }
+
+// ///////// sorting by title ///////////
+
+function sortTitle() {
+
+  allHorns.sort( (a,b) => {
+    if(a.title.toUpperCase() > b.title.toUpperCase()){
+      return 1;
+    } else {
+      return -1;
+    }
+  });
+
+}
+
